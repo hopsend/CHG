@@ -13,3 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('http://hartwig-so/ShippingOperation/CreateLCLEM')
+
+WebUI.click(findTestObject('Object Repository/Page_C.Hartwig SO/LCLEM/input__cfsOrigin'))
+
+WebUI.setText(findTestObject('Object Repository/Page_C.Hartwig SO/LCLEM/input__cfsOrigin'), 'Gdańsk - Solid Logistics, Kontenerowa 21, Gdańsk')
+
+WebUI.closeBrowser()
+

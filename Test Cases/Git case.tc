@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>do chg push</description>
-   <name>Git case</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ece61512-4918-4fe6-8cb9-e5237d53e6af</testCaseGuid>
-</TestCaseEntity>
