@@ -19,5 +19,7 @@ WebUI.click(findTestObject('Object Repository/Page_C.Hartwig SO/LCLEM/input__cfs
 
 WebUI.setText(findTestObject('Object Repository/Page_C.Hartwig SO/LCLEM/input__cfsOrigin'), 'Gdańsk - Solid Logistics, Kontenerowa 21, Gdańsk')
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.openBrowser('http://hartwig-so/')
 
