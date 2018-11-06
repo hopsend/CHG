@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Hartwig,Chrome 69.0.3497.100,CHG,2018-11-06 13:52:34,2018-11-06 13:52:50,"15,874s",FAILED
+,,,,,,
+Test Cases/New Test Case (1),Chrome 69.0.3497.100,,2018-11-06 13:52:35,2018-11-06 13:52:49,"14,294s",FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_C.Hartwig SO/LCLEM/WebServiceRequest - login)),Chrome 69.0.3497.100,,2018-11-06 13:52:35,2018-11-06 13:52:35,"0,004s",NOT_RUN
+openBrowser,Chrome 69.0.3497.100,,2018-11-06 13:52:35,2018-11-06 13:52:40,"4,551s",PASSED
+authenticate,Chrome 69.0.3497.100,,2018-11-06 13:52:40,2018-11-06 13:52:49,"9,082s",FAILED

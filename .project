@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
 	<name>C%%Users%pawelchmiel%Katalon Studio%CHG%CHG.prj</name>
 	<comment></comment>
 	<projects>
@@ -16,6 +15,18 @@
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-509295903560078457.groovy</name>
+			<type>1</type>
+			<location>C:/Users/PAWELC~1/AppData/Local/Temp/Katalon/Web Services/kat-509295903560078457.groovy</location>
+		</link>
+		<link>
+			<name>kat-8675911378399861059.groovy</name>
+			<type>1</type>
+			<location>C:/Users/PAWELC~1/AppData/Local/Temp/Katalon/Web Services/kat-8675911378399861059.groovy</location>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1539330091853</id>
@@ -64,25 +75,15 @@
 		</filter>
 		<filter>
 			<id>1540978709219</id>
-=======
-	<name>C%%Users%pawelchmiel%git%KatalongithubCHG%KatalongithubCHG.prj</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
-	<filteredResources>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
 		<filter>
-			<id>1540811012695</id>
+			<id>1541508422568</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -91,8 +92,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1540811012708</id>
->>>>>>> branch 'master' of https://github.com/hopsend/KatalongithubCHG.git
+			<id>1541508422579</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

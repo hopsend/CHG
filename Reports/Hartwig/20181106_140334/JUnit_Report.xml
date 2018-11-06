@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hartwig" time="24" tests="1" failures="0" errors="0">
+   <testsuite name="Hartwig" tests="1" failures="0" errors="0" time="24" timestamp="2018-11-06 14:03:36" hostname="pawelchmiel - 201601001H.biuro.k2.pl" id="Test Suites/Hartwig">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pawelchmiel\\Katalon Studio\\CHG\\Reports\\Hartwig\\20181106_140334"/>
+         <property name="logFiles" value="C:\\Users\\pawelchmiel\\Katalon Studio\\CHG\\Reports\\Hartwig\\20181106_140334\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pawelchmiel - 201601001H.biuro.k2.pl"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Firefox 63.0"/>
+         <property name="hostAddress" value="10.2.0.85"/>
+         <property name="sessionId" value="a9380765-6d02-4ae7-bdb4-9782af7af9dc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (1)" classname="Test Cases/New Test Case (1)" status="PASSED">
+         <system-out><![CDATA[2018-11-06 14:03:37 - [TEST_CASE][PASSED] - Test Cases/New Test Case (1): Test Cases/New Test Case (1)
+
+2018-11-06 14:03:38 - [TEST_STEP][NOT_RUN] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_C.Hartwig SO/LCLEM/WebServiceRequest - login)): NOT_RUN: Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_C.Hartwig SO/LCLEM/WebServiceRequest - login))
+
+2018-11-06 14:03:38 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_C.Hartwig SO/LCLEM/WebServiceRequest - login))
+
+2018-11-06 14:03:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://hartwig-so/ShippingOperation/CreateLCLEM'
+
+2018-11-06 14:03:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://hartwig-so/ShippingOperation/CreateLCLEM'
+
+2018-11-06 14:03:43 - [TEST_STEP][NOT_RUN] - authenticate: NOT_RUN: authenticate
+
+2018-11-06 14:03:43 - [MESSAGE][NOT_RUN] - NOT_RUN: authenticate
+
+2018-11-06 14:03:43 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_C.Hartwig SO/LCLEM/input__cfsOrigin' is clickable
+
+2018-11-06 14:03:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_C.Hartwig SO/LCLEM/input__cfsOrigin' is clickable
+
+2018-11-06 14:03:57 - [TEST_STEP][NOT_RUN] - verifyResponseStatusCode: NOT_RUN: verifyResponseStatusCode
+
+2018-11-06 14:03:57 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyResponseStatusCode
+
+2018-11-06 14:03:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_C.Hartwig SO/LCLEM/input__cfsOrigin' is clicked on
+
+2018-11-06 14:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_C.Hartwig SO/LCLEM/input__cfsOrigin' is clicked on
+
+2018-11-06 14:03:58 - [TEST_STEP][PASSED] - setText: Text 'Gdańsk - Solid Logistics, Kontenerowa 21, Gdańsk' is set on object 'Object Repository/Page_C.Hartwig SO/LCLEM/input__cfsOrigin'
+
+2018-11-06 14:04:00 - [MESSAGE][PASSED] - Text 'Gdańsk - Solid Logistics, Kontenerowa 21, Gdańsk' is set on object 'Object Repository/Page_C.Hartwig SO/LCLEM/input__cfsOrigin'
+
+2018-11-06 14:04:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-06 14:04:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-06 14:03:36 - [TEST_SUITE][PASSED] - Hartwig: Test Cases/New Test Case (1)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

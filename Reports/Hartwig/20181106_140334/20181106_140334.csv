@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Hartwig,Firefox 63.0,CHG,2018-11-06 14:03:36,2018-11-06 14:04:01,"24,819s",PASSED
+,,,,,,
+Test Cases/New Test Case (1),Firefox 63.0,,2018-11-06 14:03:37,2018-11-06 14:04:01,"24,095s",PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_C.Hartwig SO/LCLEM/WebServiceRequest - login)),Firefox 63.0,,2018-11-06 14:03:38,2018-11-06 14:03:38,"0,004s",NOT_RUN
+openBrowser,Firefox 63.0,,2018-11-06 14:03:38,2018-11-06 14:03:43,"5,000s",PASSED
+authenticate,Firefox 63.0,,2018-11-06 14:03:43,2018-11-06 14:03:43,"0,003s",NOT_RUN
+waitForElementClickable,Firefox 63.0,,2018-11-06 14:03:43,2018-11-06 14:03:57,"14,269s",PASSED
+verifyResponseStatusCode,Firefox 63.0,,2018-11-06 14:03:57,2018-11-06 14:03:57,"0,002s",NOT_RUN
+click,Firefox 63.0,,2018-11-06 14:03:57,2018-11-06 14:03:58,"1,672s",PASSED
+setText,Firefox 63.0,,2018-11-06 14:03:58,2018-11-06 14:04:00,"1,421s",PASSED
+closeBrowser,Firefox 63.0,,2018-11-06 14:04:00,2018-11-06 14:04:01,"0,987s",PASSED

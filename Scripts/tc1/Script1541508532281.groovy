@@ -13,17 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: response = WS.sendRequest(findTestObject('Page_C.Hartwig SO/LCLEM/WebServiceRequest - login'))
+CustomKeywords.'com.test.demo.keywords.CustomFunnctions.printHello'()
 
-WebUI.openBrowser('http://hartwig-so/ShippingOperation/CreateLCLEM')
-
-WebUI.waitForElementClickable(findTestObject('Page_C.Hartwig SO/LCLEM/input__cfsOrigin'), 30)
-
-not_run: WS.verifyResponseStatusCode(response, 200)
-
-WebUI.click(findTestObject('Page_C.Hartwig SO/LCLEM/input__cfsOrigin'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Page_C.Hartwig SO/LCLEM/input__cfsOrigin'), 'Gdańsk - Solid Logistics, Kontenerowa 21, Gdańsk')
-
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'com.test.demo.keywords.CustomFunnctions.printName'('Rajesh Kapanbhakar')
 
